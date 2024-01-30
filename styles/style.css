@@ -1,0 +1,120 @@
+#Full_name{
+    color: red;
+}
+html {
+    font-size: 20px;
+    font-family: 'Poor Story',sans-serif;
+    background-color: #00539f;
+
+}
+.layout {
+    width: 1366px;
+    height: 768px;
+    margin: 5% auto;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+    border: 5px solid black;
+    text-shadow: 3px 3px 1px black;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+
+}
+body {
+    width: 1600px;
+    margin: 0 auto;
+    background-color: #e6d477;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+#name {
+    color: red;
+
+    font-size: 24px;
+}
+
+#name li{
+    display: inline-block;
+
+
+}
+
+#name img{
+    width: 150px;
+    display: block;
+
+    float: right;
+    border: 5px solid black;
+}
+
+#For_what{
+
+    border: 5px solid #333;
+    box-shadow: 8px 8px 5px #444;
+    padding: 0 8px 12px 8px;
+    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+    font-style: italic;
+}
+
+#hobby{
+    border: 5px solid black;
+    background: rgb(230,119,190);
+    background: linear-gradient(90deg, rgba(230,119,190,1) 0%, rgba(0,212,255,1) 53%, rgba(15,52,60,1) 100%);
+    font-style: oblique;
+
+}
+
+#education{
+    border: 5px dashed black;
+    color: white;
+    font-weight: 700;
+    padding: 15%;
+    text-align: right;
+}
+
+#education h2{
+    background-color: #1308c1;
+
+}
+
+
+.hide {
+    display: none;
+}
+.hide + label ~ div{
+    display: none;
+}
+
+.hide + label {
+    border-bottom: 1px dotted green;
+    padding: 0;
+    color: green;
+    cursor: pointer;
+    display: inline-block;
+}
+.hide:checked + label {
+    color: red;
+    border-bottom: 0;
+}
+.hide:checked + label + div {
+    display: block;
+    background: #efefef;
+    -moz-box-shadow: inset 3px 3px 10px #7d8e8f;
+    -webkit-box-shadow: inset 3px 3px 10px #7d8e8f;
+    box-shadow: inset 3px 3px 10px #7d8e8f;
+    padding: 10px;
+}
+
+.demo {
+    margin: 5% 10%;
+}
+
